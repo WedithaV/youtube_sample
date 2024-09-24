@@ -1,0 +1,16 @@
+.thumbnail-image {
+  width: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.search-bar {
+  display: block;
+}
+
+.video-preview {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
