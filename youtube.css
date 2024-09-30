@@ -4,7 +4,7 @@ p {
   font-family: Roboto, arial;
 }
 .thumbnail-image {
-  width: 300px;
+  width: 100%;
   object-fit: cover;
   object-position: center;
 }
@@ -13,17 +13,11 @@ p {
   display: block;
 }
 
-.video-preview {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 15px;
+.video-discription {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
-.profile {
-  display: inline-block;
-  vertical-align: top;
-}
 
 .profile-picture {
   height: 40px;
@@ -35,10 +29,6 @@ p {
   margin-right: 10px;
 }
 
-.video-details {
-  display: inline-block;
-  width: 245px;
-}
 
 .video-topic {
   margin-top: 8px;
@@ -63,4 +53,11 @@ p {
 .video-title {
   font-size: 14px;
   line-height: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
