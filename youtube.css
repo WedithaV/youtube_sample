@@ -1,3 +1,8 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Roboto, arial;
+}
 .thumbnail-image {
   width: 300px;
   object-fit: cover;
@@ -13,4 +18,49 @@
   display: inline-block;
   vertical-align: top;
   margin-right: 15px;
+}
+
+.profile {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.profile-picture {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.video-details {
+  display: inline-block;
+  width: 245px;
+}
+
+.video-topic {
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.video-owner {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.author {
+  font-size: 12px;
+  color: #606060;
+}
+
+.views-details {
+  font-size: 12px;
+  color: #606060; 
+}
+
+.video-title {
+  font-size: 14px;
+  line-height: 20px;
 }
