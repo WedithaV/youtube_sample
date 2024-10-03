@@ -3,14 +3,14 @@ p {
   margin-bottom: 0px;
   font-family: Roboto, arial;
 }
+
+body {
+  margin: 0px;
+}
 .thumbnail-image {
   width: 100%;
   object-fit: cover;
   object-position: center;
-}
-
-.search-bar {
-  display: block;
 }
 
 .video-discription {
@@ -60,4 +60,28 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+
+}
+
+.left-part {
+  background-color:lightblue;
+  width: 200px;
+}
+
+.right-part {
+  background-color: lightpink;
+  width: 200px;
+}
+
+.center-part {
+  background-color:black;
+  flex: 1;
+  margin-left: 60px;
+  margin-right: 35px;
 }
