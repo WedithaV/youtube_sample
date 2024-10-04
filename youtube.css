@@ -69,20 +69,108 @@ body {
 
 }
 
+.center-part {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 60px;
+  margin-right: 30px;
+  max-width:400px;
+}
+
+.hamburger-menu {
+  height: 20px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.youtube-logo {
+  height: 17px;
+}
+
 .left-part {
-  background-color:lightblue;
-  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  height: 21px;
+
+}
+
+.voice-search-icon {
+  height: 21px;
+  width: 21px;
+  margin-top: 1px;
+}
+
+.search-bar {
+  font-size: 15px;
+  flex: 1;
+  height: 30px;
+  border-color:rgb(214, 204, 204);
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 10px;
+  border-radius: 2px 0 0 2px;
+  box-shadow:inset 1px 1px  2px rgba(0,0,0,0.05);
+  margin-right: -1px;
+}
+
+.search-bar:focus {
+    border-color: blue; /* Change to any color you want */
+    outline: none; /* Optionally remove the default outline */
+}
+
+.search-bar::placeholder {
+  color: grey;
+  font-size: 15px;
+}
+
+.search-button {
+  height: 34px;
+  width: 56px;
+  border-color:rgb(214, 204, 204);
+  border-width: 1px;
+  border-radius: 0 2px 2px 0;
+  border-style: solid;
+  margin-right: 8px;
+  cursor: pointer;
+ 
+}
+
+.voice-search-button {
+ border: none;
+ background-color: rgb(248, 248, 248);
+ height: 34px;
+ width: 34px;
+ border-radius: 16px;
+ cursor: pointer;
 }
 
 .right-part {
-  background-color: lightpink;
-  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+  cursor: pointer;
 }
 
-.center-part {
-  background-color:black;
-  flex: 1;
-  margin-left: 60px;
-  margin-right: 35px;
-  max-width:400px;
+.upload-button {
+  height: 22px;
 }
+
+.app-button {
+  height: 22px;
+}
+
+.notification-button {
+  height: 22px;
+}
+
+.profile-button {
+  height: 26px;
+  width: 26px;
+  border-radius: 13px;
+}
+
