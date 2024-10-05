@@ -203,3 +203,19 @@ body {
   border-radius: 13px;
 }
 
+.notification {
+  position: relative;
+}
+
+.number-of-notifications {
+  position: absolute;
+  background-color: rgb(200, 35, 35);
+  color: white;
+  font-family: Roboto, Arial;
+  padding:2px 5px 2px 5px;
+  border-radius: 10px;
+  font-size: 8px;
+  top: -1px;
+  right: -3px;
+}
+
