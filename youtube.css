@@ -8,6 +8,7 @@ body {
   padding-top: 72px;
   padding-left: 82px;
   margin: 0px;
+  background-color: rgb(247, 246, 246);
 }
 
 .tumbnail {
@@ -34,13 +35,12 @@ body {
 
 .video-discription {
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 40px 1fr;
 }
 
-
 .profile-picture {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   border-radius: 40px;
   object-fit: cover;
   object-position: center;
@@ -55,23 +55,23 @@ body {
 }
 
 .video-owner {
-  margin-top: 10px;
+  margin-top: 8px;
   margin-bottom: 3px;
 }
 
 .author {
-  font-size: 12px;
+  font-size: 10px;
   color: #606060;
 }
 
 .views-details {
-  font-size: 12px;
+  font-size: 10px;
   color: #606060; 
 }
 
 .video-title {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .container {
@@ -79,6 +79,8 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+  margin-right: 20px;
+  
 }
 
 .header {
@@ -131,6 +133,7 @@ body {
 }
 
 .search-bar {
+  z-index: 102;
   font-size: 15px;
   flex: 1;
   height: 30px;
@@ -163,7 +166,7 @@ body {
   border-style: solid;
   margin-right: 8px;
   cursor: pointer;
- 
+  
 }
 
 .voice-search-button {
