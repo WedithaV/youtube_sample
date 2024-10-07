@@ -166,7 +166,10 @@ body {
   border-style: solid;
   margin-right: 8px;
   cursor: pointer;
-  
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .voice-search-button {
@@ -176,6 +179,10 @@ body {
  width: 34px;
  border-radius: 16px;
  cursor: pointer;
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 .right-part {
@@ -221,4 +228,45 @@ body {
   top: -1px;
   right: -3px;
 }
+
+.tooltip {
+  font-family: Roboto, Arial;
+  font-size:10px;
+  position: absolute;
+  background-color: rgb(42, 41, 41);
+  color: white;
+  padding: 6px 4px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+.search-button .tooltip,
+.voice-search-button .tooltip {
+  bottom: -34px;
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.right-part div:hover .tooltip {
+  opacity: 0.8;
+}
+
+.right-part div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-part .tooltip {
+  bottom: -26px;
+}
+
+.notification .tooltip {
+  bottom: -40px;
+}
+
+
 
